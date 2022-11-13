@@ -1,0 +1,55 @@
+.jurnal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 20px;
+    margin-bottom: 90px;
+}
+.juduljurnal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 60px;
+
+    width: 1728px;
+    height: 82px;
+}
+.kolom{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 60px;
+    gap: 40px;
+
+    width: 1728px;
+    height: 246px;
+
+}
+.contentjurnal{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    
+    width: 799px;
+    height: 246px;
+}
+.text{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 513px;
+height: 239px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}

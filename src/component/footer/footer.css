@@ -1,0 +1,85 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 86px;
+    position: relative;
+    width: 100%;
+    height: 450.08px;
+    background: #174669;
+}
+.footerisi{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 260px;
+    width: 100%;
+    height: 378px;
+    
+    
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 133px;
+    height: 278px;
+
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.support{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 222px;
+    height: 278px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.call{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 313px;
+    height: 196px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 248px;
+    height: 40px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+    width: 381px;
+    height: 184.38px;   
+}

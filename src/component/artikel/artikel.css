@@ -1,0 +1,94 @@
+.judul{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 78px;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.artikel{
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+
+}
+
+.card{
+    background-color: transparent;
+    border: 0;
+}
+
+.card p{
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    color:#A60C1F;
+    
+}
+
+h3::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  h3:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  h3:hover{
+    color:white;
+  }
+  
+  h3::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: #A60C1F;
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+  h3 {
+    position: relative;
+    font-weight: 900;
+    color:rgba(0, 0, 0, 0.933);
+  }
+
+.card img{
+    border-radius: 20px;
+}
+
+.btn-danger{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  border: 0;
+  width: 244px;
+  height: 76px;
+  margin: 10px;
+  background: #A60C1F;
+  border-radius: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+a{
+  text-decoration:none
+}
+
+.btn-danger:hover {
+  background-color:  #2B4754;
+  ;
+}

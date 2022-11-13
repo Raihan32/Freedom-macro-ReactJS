@@ -1,0 +1,40 @@
+.judul{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 78px;
+    color: rgb(0, 0, 0);
+}
+.komunitas{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+
+}
+
+.btn-primary{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+    border: 0;
+    width: 70px;
+    height: 36px;
+    margin: 10px;
+    background: #A60C1F;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+}
+
+.btn:hover {
+    background-color:  #2B4754;
+    ;
+  }

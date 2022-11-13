@@ -1,0 +1,62 @@
+.hero{
+    width: 100%;
+    height: 1000;
+
+}
+
+.herotext{
+    
+    width: 1100px;
+    height: 429px;
+    margin-left: 60px;
+    margin-top: 360px;
+    
+    
+}
+
+.header{
+    color: rgb(0, 0, 0);
+    font-family: '';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+}
+
+.par{
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    margin-right: 318px;
+}
+
+.tombol{
+    margin-top: 15px;
+    border: 0;
+    width: 407px;
+    height: 72px;
+    border-radius: 20px;
+    background: #A60C1F;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.tombol:hover {
+    background-color:  #2B4754;
+    
+}
+
+.foto{
+    position: absolute;
+    width: 790px;
+    height: 360px;
+    left: 1110px;
+    top: 320px;
+    z-index: 1;
+    
+    
+}
