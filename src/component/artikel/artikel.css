@@ -1,18 +1,17 @@
 .judul{
-    font-family: 'Poppins';
-    font-style: normal;
+    
     font-weight: 600;
-    font-size: 52px;
-    line-height: 78px;
+    font-size: 3.25rem;
+    line-height: 4.875rem;
     text-decoration: underline;
     color: rgb(0, 0, 0);
 }
 
 .artikel{
-    margin-top: 300px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 150px;
+    margin-top: 18.75rem;
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+    margin-bottom: 9.375rem;
 
 }
 
@@ -22,9 +21,9 @@
 }
 
 .card p{
-    margin-top: 15px;
+    margin-top: .9375rem;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     color:#A60C1F;
     
 }
@@ -55,13 +54,13 @@ h3::before {
   }
   
   h3 {
-    position: relative;
-    font-weight: 900;
+    position:relative;
+    font-weight:600;
     color:rgba(0, 0, 0, 0.933);
   }
 
 .card img{
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
 
 .btn-danger{
@@ -69,19 +68,17 @@ h3::before {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  gap: 10px;
+  padding: .625rem;
+  gap: .625rem;
   border: 0;
-  width: 244px;
-  height: 76px;
-  margin: 10px;
+  width: 15.25rem;
+  height: 4.75rem;
+  margin: .625rem;
   background: #A60C1F;
-  border-radius: 10px;
-  font-family: 'Poppins';
-  font-style: normal;
+  border-radius: .625rem;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 48px;
+  font-size: 2rem;
+  line-height: 3rem;
 }
 
 a{

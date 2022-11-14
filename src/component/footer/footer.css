@@ -2,21 +2,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 0px;
-    gap: 86px;
+    padding: 2.5rem 0rem;
+    gap: 5.375rem;
     position: relative;
     width: 100%;
-    height: 450.08px;
+    height: 28.13rem;
     background: #174669;
 }
 .footerisi{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
-    gap: 260px;
+    padding: 0rem;
+    gap: 16.25rem;
     width: 100%;
-    height: 378px;
+    height: 23.625rem;
     
     
 }
@@ -24,11 +24,11 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
-    gap: 16px;
+    padding: 0rem;
+    gap: 1rem;
 
-    width: 133px;
-    height: 278px;
+    width: 8.3125rem;
+    height: 17.375rem;
 
 
 /* Inside auto layout */
@@ -42,10 +42,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
-    gap: 16px;
-    width: 222px;
-    height: 278px;
+    padding: 0rem;
+    gap: 1rem;
+    width: 13.875rem;
+    height: 17.375rem;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -54,10 +54,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
-    gap: 16px;
-    width: 313px;
-    height: 196px;
+    padding: 0rem;
+    gap: 1rem;
+    width: 19.5625rem;
+    height: 12.25rem;
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -67,10 +67,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-    gap: 12px;
-    width: 248px;
-    height: 40px;
+    padding: 0rem;
+    gap: .75rem;
+    width: 15.5rem;
+    height: 2.5rem;
     flex: none;
     order: 3;
     flex-grow: 0;
@@ -79,7 +79,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 100px;
-    width: 381px;
-    height: 184.38px;   
+    margin-left: 6.25rem;
+    width: 23.8125rem;
+    height: 11.5237rem;   
 }

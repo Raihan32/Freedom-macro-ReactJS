@@ -6,19 +6,21 @@ import Kominitas from "./component/komunitas/Kominitas";
 import Donasi from "./component/donasi/Donasi";
 import Jurnal from "./component/jurnal/Jurnal";
 import Footer from "./component/footer/Footer";
-
+import { Routes, Route } from "react-router-dom";
+import Beranda from "./pages/Jurnalpage/Home/Beranda";
+import Jurnalpage from "./pages/Jurnalpage/Jurnalpage";
 
 
 
 function App() {
   return (
     <><Navbar />
-     <Header />
-    <Artikel />
-    <Kominitas />
-    <Donasi />
-    <Jurnal />
-    <Footer />
+    <Routes>
+    <Route path="/" element={<Beranda />} />
+    <Route path="/jurnal" element={<Jurnalpage />} />
+    
+    </Routes>
+     
     </>
   );
 }

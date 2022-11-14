@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from "./imgnavbar/Logo.png"
 import Profile from "./imgnavbar/user.png"
+import { NavLink } from "react-router-dom";
 import './css.css'
 
 const Navbar = () => {
@@ -19,19 +20,19 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
                 <li className="nav-item">
-                    <a className="nav-link active animasi-left-right"  href="#">Beranda</a>
+                    <NavLink className="nav-link active animasi-left-right" to="/">Beranda</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link active animasi-left-right" href="#">Artikel</a>
+                    <NavLink className="nav-link active animasi-left-right"to="/">Artikel</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link active animasi-left-right" href="#">Pejuang</a>
+                    <NavLink className="nav-link active animasi-left-right"to="/">Pejuang</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link active animasi-left-right" href="#">Jurnal</a>
+                    <NavLink className="nav-link active animasi-left-right"to="/jurnal">Jurnal</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link active animasi-left-right" href="#">Tindakan</a>
+                    <NavLink className="nav-link active animasi-left-right"to="/">Tindakan</NavLink>
                 </li>
             </ul>
         </div>
