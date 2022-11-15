@@ -14,10 +14,8 @@ const Kominitas = () => {
       slidesPerView={4}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-    > 
-    
+    >     
     <div>
-      
       <SwiperSlide><div className="card">
           <div className="card-body">
           <img src={komunitas1} />

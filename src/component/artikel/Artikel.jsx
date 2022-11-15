@@ -37,7 +37,6 @@ const Artikel = () => {
             <p className="card-text">The Conversation, 2019</p>
           </div>
         </div>
-
       </div>
       <a  href=""><div className="col">
         <div className="card ">

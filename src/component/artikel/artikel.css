@@ -75,7 +75,7 @@ h3::before {
   height: 4.75rem;
   margin: .625rem;
   background: #A60C1F;
-  border-radius: .625rem;
+  border-radius: .625rem; 
   font-weight: 400;
   font-size: 2rem;
   line-height: 3rem;

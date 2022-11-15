@@ -11,14 +11,12 @@ import Beranda from "./pages/Jurnalpage/Home/Beranda";
 import Jurnalpage from "./pages/Jurnalpage/Jurnalpage";
 
 
-
 function App() {
   return (
     <><Navbar />
     <Routes>
     <Route path="/" element={<Beranda />} />
     <Route path="/jurnal" element={<Jurnalpage />} />
-    
     </Routes>
      
     </>

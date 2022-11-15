@@ -4,6 +4,7 @@ import Profile from "./imgnavbar/user.png"
 import { NavLink } from "react-router-dom";
 import './css.css'
 
+
 const Navbar = () => {
   return (
     <div>
@@ -15,7 +16,7 @@ const Navbar = () => {
         <span className="navbar-toggler"><img style={{marginLeft : " 15px"}} src={Logo} /></span>
         
         <div className="collapse navbar-collapse" >
-            <a><img style={{marginLeft : " 15px"}} src={Logo} /></a>      
+            <a><img style={{ height:"75px",marginLeft : " 15px" ,}} src={Logo} /></a>      
         </div>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 m-auto">

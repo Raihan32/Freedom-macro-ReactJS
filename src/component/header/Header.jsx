@@ -5,14 +5,17 @@ import './header.css';
 
 const Header = () => {
   return (
-    <div className='container'>
+   <div className='container'>
     <div className='hero'>
       <div className='herotext'>
         <p className='header'>#TolakRasisme</p>
-        <p className='par'>Rasisme tidak dilawan dengan rasisme, pendekatan paling ideal untuk memerangi rasisme adalah dengan solidaritas.</p>
-        <a> <button className='tombol'>Bergabung dengan kami sekarang</button> </a>
+        <p className='par'>“Kegelapan tidak dapat mengusir kegelapan: hanya cahaya yang dapat melakukan itu. Kebencian tidak dapat mengusir kebencian: hanya cinta yang dapat melakukan itu.”</p>
+        <a> <button className='tombol'>Bergabung sekarang</button> </a>
         </div> 
-      <img src={headerlogo} style={{width:"25%", height:"25%", marginTop:"25%" }} />
+      
+    </div>
+    <div className='foto'>
+    <img src={headerlogo} style={{ marginTop:"25%" }} />
     </div>
     </div>
   )

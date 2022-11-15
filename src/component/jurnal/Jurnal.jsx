@@ -13,18 +13,18 @@ const Jurnal = () => {
         <div className='contentjurnal'>
             <img src={jurnal1} style={{width:"246px" , height:"307px"}} />
             <div className='text'>
-                <p>Kompas.com</p>
-                <p>Lorem Ipsum</p>
-                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <h4>Kompas.com</h4>
+                <h4>Lorem Ipsum</h4>
+                <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h4>
                 <p>2 days ago . 3 min read</p>
             </div>
         </div>
         <div className='contentjurnal'>
             <img src={jurnal1} style={{width:"246px" , height:"307px"}} />
             <div className='text'>
-                <p>Kompas.com</p>
-                <p>Lorem Ipsum</p>
-                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <h4>Kompas.com</h4>
+                <h4>Lorem Ipsum</h4>
+                <h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h4>
                 <p>2 days ago . 3 min read</p>
             </div>
         </div>
