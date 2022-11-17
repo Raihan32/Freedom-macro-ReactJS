@@ -35,7 +35,7 @@ const Jurnalpage = () => {
         <a><p>Laporan catatan</p></a>
         <a><p>Laporan</p></a>
         </div>
-       <div className='isi'>
+       <div className='isij'>
         <div className='buku'>
         <a><img  src={Buku} /></a> 
           <h1>lorem ipsum</h1>
@@ -43,7 +43,7 @@ const Jurnalpage = () => {
           <button className='btn btn-success'>Selengkapnya</button>
           </div>
           <div className='buku'>
-        <a><img  src={Buku} /></a> 
+      <img  src={Buku} />
           <h1>lorem ipsum</h1>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen boo...</p>
           <button className='btn btn-success'>Selengkapnya</button>

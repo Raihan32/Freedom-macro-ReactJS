@@ -1,0 +1,69 @@
+.isi{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px;
+    gap: 10px;
+
+
+    width: 100%;
+    height: 1629.92px;
+}
+.berita{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 1640px;
+height: 898.92px;
+margin-left: 60px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.penulis{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 34.24px;
+
+width: 425.07px;
+height: 96px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+.beritascroll{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 52px;
+
+
+width: 100%;
+height: 538.83px;
+}
+.cardberita{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 26.6422px 16.6514px;
+gap: 26.64px;
+width: 400px;
+height: 538.72px;
+border-radius: 17.1543px;
+
+background: #174669;
+}

@@ -6,19 +6,24 @@
     gap: 5.375rem;
     position: relative;
     width: 100%;
-    height: 28.13rem;
+    height: auto;
     background: #174669;
+    font-family: 'Poppins';
+    font-style: normal;
 }
 .footerisi{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0rem;
-    gap: 16.25rem;
+    gap: 10.25rem;
     width: 100%;
     height: 23.625rem;
+
     
-    
+}
+.footerisi p{
+    color: aliceblue;
 }
 .menu{
     display: flex;
@@ -26,7 +31,7 @@
     align-items: flex-start;
     padding: 0rem;
     gap: 1rem;
-
+    margin-left: 70px;
     width: 8.3125rem;
     height: 17.375rem;
 
@@ -80,6 +85,44 @@
     flex-direction: column;
     align-items: flex-start;
     margin-left: 6.25rem;
-    width: 23.8125rem;
+    width: auto;
     height: 11.5237rem;   
+}
+
+.tombolfooter{
+    
+    padding: 11px 16px;
+    margin: 10px;
+
+    
+    border: 0;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+.tempattombol{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 2501px;
+height: 136px;
+order: 1;
+flex-grow: 0;   
+}
+.copyright{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 21.03px;
+color: white;
+position: absolute;
+width: 1510px;
+height: 46.08px;
+left: 109px;
+top: 400px;
+
+
 }

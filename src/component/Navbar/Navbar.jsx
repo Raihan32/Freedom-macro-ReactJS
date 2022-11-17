@@ -3,7 +3,7 @@ import Logo from "./imgnavbar/Logo.png"
 import Profile from "./imgnavbar/user.png"
 import { NavLink } from "react-router-dom";
 import './css.css'
-
+import { NavDropdown } from 'react-bootstrap';
 
 const Navbar = () => {
   return (
@@ -13,7 +13,7 @@ const Navbar = () => {
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
-        <span className="navbar-toggler"><img style={{marginLeft : " 15px"}} src={Logo} /></span>
+        <span className="navbar-toggler"><img style={{height:"75px",marginLeft : " 15px"}} src={Logo} /></span>
         
         <div className="collapse navbar-collapse" >
             <a><img style={{ height:"75px",marginLeft : " 15px" ,}} src={Logo} /></a>      
@@ -24,7 +24,7 @@ const Navbar = () => {
                     <NavLink className="nav-link active animasi-left-right" to="/">Beranda</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link active animasi-left-right"to="/">Artikel</NavLink>
+                    <NavLink className="nav-link active animasi-left-right"to="/artikel">Artikel</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink className="nav-link active animasi-left-right"to="/">Pejuang</NavLink>
@@ -32,9 +32,10 @@ const Navbar = () => {
                 <li className="nav-item">
                     <NavLink className="nav-link active animasi-left-right"to="/jurnal">Jurnal</NavLink>
                 </li>
-                <li className="nav-item">
-                    <NavLink className="nav-link active animasi-left-right"to="/">Tindakan</NavLink>
-                </li>
+                <NavDropdown className='nav-item ' title="Tindakan" id="basic-nav-dropdown">
+              <NavDropdown.Item  to="/">Donasi</NavDropdown.Item>
+              <NavDropdown.Item va to="/">Petisi</NavDropdown.Item>
+            </NavDropdown>
             </ul>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
