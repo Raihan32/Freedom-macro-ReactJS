@@ -16,12 +16,12 @@ const Navbar = () => {
         <span className="navbar-toggler"><img style={{height:"75px",marginLeft : " 15px"}} src={Logo} /></span>
         
         <div className="collapse navbar-collapse" >
-            <a><img style={{ height:"75px",marginLeft : " 15px" ,}} src={Logo} /></a>      
+            <a><img style={{ height:"75px",marginLeft : " 85px" ,}} src={Logo} /></a>      
         </div>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
                 <li className="nav-item">
-                    <NavLink className="nav-link active animasi-left-right" to="/">Beranda</NavLink>
+                    <NavLink className="nav-link active animasi-left-right" to="/beranda">Beranda</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink className="nav-link active animasi-left-right"to="/artikel">Artikel</NavLink>
@@ -33,14 +33,17 @@ const Navbar = () => {
                     <NavLink className="nav-link active animasi-left-right"to="/jurnal">Jurnal</NavLink>
                 </li>
                 <NavDropdown className='nav-item ' title="Tindakan" id="basic-nav-dropdown">
-              <NavDropdown.Item  to="/">Donasi</NavDropdown.Item>
-              <NavDropdown.Item va to="/">Petisi</NavDropdown.Item>
-            </NavDropdown>
+                    <NavLink className='dropdown-item' to='/donasi'>Donasi</NavLink>
+                    <NavLink className='dropdown-item' to='/petisi'>Petisi</NavLink>
+                </NavDropdown>
             </ul>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <a><img src={Profile} /></a> 
+            <li className="nav-item">
+                    <NavLink className="nav-link active "to="/profile"><img src={Profile} />  Hi, Dafa</NavLink>
+                </li>
+             
             </ul>
         </div>
         

@@ -1,6 +1,6 @@
 .nav-item{
     font-weight: 600;
-    margin-left: 3.75rem;
+    margin-left: 40px;
     
 }
 .navbar{
@@ -27,7 +27,9 @@
     font-size: 1.25rem;
     
   }
-
+.collapse .navbar-collapse{
+  gap: 0;
+}
 
 
 

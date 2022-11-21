@@ -5,10 +5,12 @@ import berita1 from './img/berita1.png'
 import penulis1 from './img/penulis1.png'
 import berita2 from './img/berita2.png'
 import berita3 from './img/berita3.png'
+import Navbar from '../../component/Navbar/Navbar';
 
 const Artikelpage = () => {
   return (
     <div>
+      <Navbar />
       <div className='head'>
         <div className='container'>
           <div className='boxtext'>
