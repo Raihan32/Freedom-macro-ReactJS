@@ -1,0 +1,42 @@
+.subnav {
+  position: sticky;
+  bottom: 0;
+  top: 88px;
+  width: 100%;
+  background-color: #eee8e8;
+  margin-bottom: 30px;
+}
+
+.subnav {
+  /* border-bottom: 1px solid #222; */
+}
+.subnav_container {
+  align-items: baseline;
+  display: flex;
+  margin: 0 40px;
+  padding: 5px 0;
+
+  /* border: 1px solid blue; */
+}
+.subnav_list {
+  margin: 0 10px;
+  cursor: pointer;
+  /* border: 1px solid red; */
+}
+
+.subnav_item {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px 20px;
+  /* border: 1px solid yellow; */
+  font-weight: bold;
+}
+
+.subnav_item_title {
+  color: black;
+}
+.subnav_item :hover {
+  color: #8d2d2a;
+  border-bottom: 1px solid #8d2d2a;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 2px;
+}
