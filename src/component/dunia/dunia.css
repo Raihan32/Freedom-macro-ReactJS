@@ -1,0 +1,13 @@
+.dunia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 0px;
+    gap: 40px;
+    
+    width: 1728px;
+    height: 272px;
+    
+
+    background: #9A1426;
+}

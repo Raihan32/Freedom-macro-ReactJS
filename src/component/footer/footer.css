@@ -1,22 +1,77 @@
 .footer{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 2.5rem 0rem;
-    gap: 5.375rem;
+    align-items: flex-start;
+    padding: 0px;
+
     position: relative;
     width: 100%;
-    height: auto;
-    background: #174669;
-    font-family: 'Poppins';
-    font-style: normal;
+    height: 904px;
+
+background: #174669;
+}
+
+.footeratas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;;
+    gap: 60px;
+    margin-left: 200px;
+    width: 1628px;
+    height: 298px;
+    margin-bottom: 20px;
+}
+.footeratastext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+    width: 584px;
+    height: 136px;
+}
+.footerataslangganan{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 585px;
+height: 52px;
+}
+.inputlangganan{
+    padding: 0px 29px;
+gap: 22px;
+border: 0;
+width: 308px;
+height: 52px;
+
+background: #FFFFFF;
+border-radius: 28px;
+}
+.langganan{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 23px;
+    gap: 10px;
+    color: #FFFFFF;
+    width: 145px;
+    height: 52px;
+    border: 0;
+    background: #9B1C1F;
+    border-radius: 28px;
+    
 }
 .footerisi{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0rem;
-    gap: 10.25rem;
+    gap: 110px;
     width: 100%;
     height: 23.625rem;
 
@@ -30,10 +85,11 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0rem;
-    gap: 1rem;
+    
     margin-left: 70px;
-    width: 8.3125rem;
-    height: 17.375rem;
+    width: 283px;
+    height: 278px;
+ 
 
 
 /* Inside auto layout */
@@ -101,15 +157,14 @@
 }
 .tempattombol{
     display: flex;
-flex-direction: column;
-align-items: flex-start;
+flex-direction: row;
+justify-content: center;
+align-items: center;
 padding: 0px;
 gap: 32px;
 
-width: 2501px;
+width: 226px;
 height: 136px;
-order: 1;
-flex-grow: 0;   
 }
 .copyright{
     display: flex;
@@ -125,4 +180,91 @@ left: 109px;
 top: 400px;
 
 
+}
+.textatasfooter{
+    width: 584px;
+height: 72px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.textbawahfooter{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+}
+.footerbawah{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 120px;
+    width: 1497.27px;
+    height: 160px;
+    margin-left: 130px;
+    margin-bottom: 70px;
+
+}
+.footerbawahtext{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 677px;
+height: 160px;
+
+}
+.askq{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 46px;
+    gap: 10px;
+    
+    width: 300px;
+    height: 60px;
+    color: #FFFFFF  ;
+    border: 4px solid #FFFFFF;
+    border-radius: 30px;
+}
+
+.footerbawahtext p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #FFFFFF;
+    
+}
+
+.footerbawahtext h4{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height */
+
+letter-spacing: 0.32em;
+
+color: #FFFFFF;
+    
 }

@@ -13,15 +13,15 @@ const Navbar = () => {
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
-        <span className="navbar-toggler"><img style={{height:"75px",marginLeft : " 15px"}} src={Logo} /></span>
+        <span className="navbar-toggler"><img style={{height:"75px",marginLeft : " 15px"}} alt="logo" src={Logo} /></span>
         
         <div className="collapse navbar-collapse" >
-            <a><img style={{ height:"75px",marginLeft : " 85px" ,}} src={Logo} /></a>      
+            <a><img style={{ height:"75px",marginLeft : " 85px" ,}} alt="logo" src={Logo} /></a>      
         </div>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
                 <li className="nav-item">
-                    <NavLink className="nav-link active animasi-left-right" to="/beranda">Beranda</NavLink>
+                    <NavLink className="nav-link active animasi-left-right" to="/">Beranda</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink className="nav-link active animasi-left-right"to="/artikel">Artikel</NavLink>
@@ -41,7 +41,7 @@ const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-                    <NavLink className="nav-link active "to="/profile"><img src={Profile} />  Hi, Dafa</NavLink>
+                    <NavLink className="nav-link active "to="/profile"><img src={Profile} alt="profile" />  Hi, Dafa</NavLink>
                 </li>
              
             </ul>

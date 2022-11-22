@@ -93,3 +93,107 @@ a{
   background-color:  #2B4754;
   ;
 }
+
+.isiartikel{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 44px;
+
+  width: 1686px;
+  height: 803px;
+
+}
+.isiartikelbesar{
+  box-sizing: border-box;
+  padding: 30px;
+  width: 771px;
+  height: 803px;
+  background: linear-gradient(180deg, #364C56 0%, #A60C1F 100%);
+  border: 4px solid #FFFFFF;
+  border-radius: 20px;
+  
+}
+.penuliasartikel{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 348px;
+  height: 78px;
+}
+.penulisartikelnama{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+height: 98px;
+
+}
+.textmedia{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  /* identical to box height */
+  margin-top: 20PX;
+
+  
+  color: #FFFFFF;
+}
+.judulartikelbesar{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 57px;
+
+  color: #FFFFFF;
+}
+.penulis{
+  align-items: center;
+
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.isiartikelkecil{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 52px;
+
+width: 771px;
+height: 800px;
+}
+.cardkecil{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+
+  width: 756px;
+  height: 230px;
+}
+.deskripsicard{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 358px;
+  height: 211px;
+}
