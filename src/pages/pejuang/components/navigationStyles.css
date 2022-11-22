@@ -4,7 +4,7 @@
   top: 88px;
   width: 100%;
   background-color: #eee8e8;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .subnav {
@@ -13,27 +13,25 @@
 .subnav_container {
   align-items: baseline;
   display: flex;
-  margin: 0 40px;
-  padding: 5px 0;
-
   /* border: 1px solid blue; */
 }
 .subnav_list {
-  margin: 0 10px;
   cursor: pointer;
   /* border: 1px solid red; */
+  margin-left: 40px;
 }
 
 .subnav_item {
   display: inline-block;
-  margin: 0 5px;
-  padding: 5px 20px;
   /* border: 1px solid yellow; */
   font-weight: bold;
+  margin-right: 60px;
+  margin-top: 10px;
 }
 
 .subnav_item_title {
-  color: black;
+  color: #000000;
+  font-size: 28px;
 }
 .subnav_item :hover {
   color: #8d2d2a;

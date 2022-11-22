@@ -2,13 +2,6 @@ import React from "react";
 import "./pejuangkomunitasStyles.css";
 import Navbar from "../../../component/Navbar/Navbar";
 
-import Navigation from "../components/Navigation";
-// import Acara from "./acara/Acara";
-// import About from "./about/About";
-// import Diskusi from "./diskusi/Diskusi";
-// import Member from "./member/Member";
-// import Photo from "./photo/Photos";
-
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
@@ -78,15 +71,6 @@ const Pejuangkomunitaspage = () => {
             </div>
           </div>
         </div>
-        <hr />
-      </div>
-      <div className="body-komunitas">
-        <Navigation />
-        {/* <About /> */}
-        {/* <Acara /> */}
-        {/* <Diskusi /> */}
-        {/* <Member /> */}
-        {/* <Photo /> */}
       </div>
     </>
   );

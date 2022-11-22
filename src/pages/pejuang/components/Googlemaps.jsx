@@ -11,7 +11,7 @@ const Googlemaps = () => {
   // ContainerStyle Berfungsi Untuk Mengatur StyleContainer Untuk google maps
   const containerStyle = {
     width: "90%",
-    height: "340px",
+    height: "400px",
     marginLeft: "100px",
     borderRadius: "20px",
   };

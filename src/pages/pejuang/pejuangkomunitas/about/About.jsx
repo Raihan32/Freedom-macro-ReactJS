@@ -2,6 +2,7 @@ import React from "react";
 import "./aboutstyles.css";
 import Navbar from "../../../../component/Navbar/Navbar";
 import Navigation from "../../components/Navigation";
+import Pejuanghome from "../Pejuangkomunitas";
 
 import bg1 from "../../img/bg-1.png";
 import photo1 from "../../img/photo1.png";
@@ -26,16 +27,7 @@ import profileAnggota9 from "../../img/aggota9.png";
 import profileAnggota10 from "../../img/aggota10.png";
 import profileAnggota11 from "../../img/aggota11.png";
 import profileAnggota12 from "../../img/aggota12.png";
-import cover1 from "../../img/cover-komunitas1.png";
-import userpp from "../../img/userpp.png";
-import founder from "../../img/founder.jpg";
 
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import { faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faTiktok } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faBuildingUser } from "@fortawesome/free-solid-svg-icons";
 import { faSchool } from "@fortawesome/free-solid-svg-icons";
 import { faHotel } from "@fortawesome/free-solid-svg-icons";
@@ -45,61 +37,7 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <div className="head-cover">
-        <div className="body-cover">
-          <div className="komunitas-cover">
-            <img src={cover1} alt="cover 1" className="cover1" />
-          </div>
-          <div className="text-komunitas">
-            <div className="text-komunitas-title">
-              <p className="komunitas-title-judul">
-                Pejuang Anti Rasisme Jakarta
-              </p>
-              <div className="komunitas-title-info">
-                <p>
-                  <span className="komunitas-icon">
-                    <FontAwesomeIcon icon={faLocationDot} size="xl" />
-                  </span>
-                  Jakarta, Indonesia
-                </p>
-                <p>
-                  <span className="komunitas-image">
-                    <img src={userpp} alt="userpp" />
-                  </span>
-                  1200 Members
-                </p>
-                <p>
-                  <span className="komunitas-image-founder">
-                    <img src={founder} alt="fotofounder" />
-                  </span>
-                  Organised by Freedom
-                </p>
-              </div>
-              <div className="share-komunitas">
-                <p>
-                  Share Komunitas :
-                  <span className="share-komunitas-icon">
-                    <FontAwesomeIcon icon={faYoutube} size="lg" />
-                  </span>
-                  <span className="share-komunitas-icon">
-                    <FontAwesomeIcon icon={faFacebook} size="lg" />
-                  </span>{" "}
-                  <span className="share-komunitas-icon">
-                    <FontAwesomeIcon icon={faTiktok} size="lg" />
-                  </span>{" "}
-                  <span className="share-komunitas-icon">
-                    <FontAwesomeIcon icon={faInstagram} size="lg" />
-                  </span>
-                  <span className="share-komunitas-icon">
-                    <FontAwesomeIcon icon={faTwitter} size="lg" />
-                  </span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr />
-      </div>
+      <Pejuanghome />
       <div className="body-komunitas">
         <Navigation />
         <div className="bgImage">
@@ -112,7 +50,7 @@ const About = () => {
                 <p
                   style={{
                     fontWeight: "bold",
-                    fontSize: "22px",
+                    fontSize: "32px",
                     letterSpacing: "0.05em",
                   }}
                 >
@@ -132,7 +70,7 @@ const About = () => {
                   <p
                     style={{
                       fontWeight: "bold",
-                      fontSize: "22px",
+                      fontSize: "32px",
                     }}
                   >
                     Kegiatan yang akan datang
@@ -140,16 +78,14 @@ const About = () => {
                   <p>See All</p>
                 </div>
                 <div className="content-event-card">
-                  <p style={{ fontSize: "12px", color: "#fff" }}>
+                  <p style={{ fontSize: "20px", color: "#fff" }}>
                     Sabtu, Januari 2022 12.00 WIB
                   </p>
-                  <p style={{ fontSize: "22px", color: "#fff" }}>
+                  <p style={{ fontSize: "30px", color: "#fff" }}>
                     Diskriminasi etnis di mangga dua
                   </p>
                   <p style={{ fontSize: "20px", color: "#fff" }}>
-                    {" "}
                     <span style={{ paddingRight: "10px" }}>
-                      {" "}
                       <FontAwesomeIcon
                         icon={faBuildingUser}
                         size="2x"
@@ -160,32 +96,28 @@ const About = () => {
                   </p>
                 </div>
                 <div className="content-event-card">
-                  <p style={{ fontSize: "12px", color: "#fff" }}>
+                  <p style={{ fontSize: "20px", color: "#fff" }}>
                     Sabtu, Januari 2022 12.00 WIB
                   </p>
-                  <p style={{ fontSize: "22px", color: "#fff" }}>
+                  <p style={{ fontSize: "30px", color: "#fff" }}>
                     Diskriminasi etnis di mangga dua
                   </p>
                   <p style={{ fontSize: "20px", color: "#fff" }}>
-                    {" "}
                     <span style={{ paddingRight: "10px" }}>
-                      {" "}
                       <FontAwesomeIcon icon={faSchool} size="2x" color="#fff" />
                     </span>
                     SMAN 1 Jakarta Barat
                   </p>
                 </div>
                 <div className="content-event-card">
-                  <p style={{ fontSize: "12px", color: "#fff" }}>
+                  <p style={{ fontSize: "20px", color: "#fff" }}>
                     Sabtu, Januari 2022 12.00 WIB
                   </p>
-                  <p style={{ fontSize: "22px", color: "#fff" }}>
+                  <p style={{ fontSize: "30px", color: "#fff" }}>
                     Diskriminasi etnis di mangga dua
                   </p>
                   <p style={{ fontSize: "20px", color: "#fff" }}>
-                    {" "}
                     <span style={{ paddingRight: "10px" }}>
-                      {" "}
                       <FontAwesomeIcon icon={faHotel} size="2x" color="#fff" />
                     </span>
                     Hotel Mekar Sari
@@ -196,7 +128,7 @@ const About = () => {
                     <p
                       style={{
                         fontWeight: "bold",
-                        fontSize: "22px",
+                        fontSize: "30px",
                       }}
                     >
                       Photos
@@ -226,7 +158,7 @@ const About = () => {
               <p
                 style={{
                   fontWeight: "bold",
-                  fontSize: "22px",
+                  fontSize: "30px",
                 }}
               >
                 Ketua Komunitas

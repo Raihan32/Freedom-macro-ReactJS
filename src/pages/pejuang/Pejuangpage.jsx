@@ -47,7 +47,7 @@ const Pejuangpage = () => {
                   <FontAwesomeIcon icon={faSearch} />
                 </button>
               </div>
-              <input type="text" placeholder="Cari Komunitas.." />
+              <input type="text" placeholder="Cari Komunitas...." />
             </div>
           </div>
         </Container>
@@ -102,141 +102,26 @@ const Pejuangpage = () => {
               </ul>
             </div>
             <div className="logo-pejuanghome">
-              <p
-                style={{
-                  fontSize: "30px",
-                  lineHeight: "30px",
-                  fontWeight: "bold",
-                  padding: "10px",
-                  margin: "10px 60px",
-                }}
-              >
-                Pejuang Rasis di Dunia
-              </p>
-              <section
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  margin: "0px 10px 0px 10px",
-                }}
-              >
-                <img
-                  src={logo1}
-                  alt="Komunitas logo1"
-                  style={{
-                    height: "90px",
-                    width: "90px",
-                  }}
-                />
-                <p
-                  style={{
-                    fontWeight: "bold",
-                    marginTop: "10px",
-                  }}
-                >
-                  Black Panther Party
-                </p>
+              <p className="logo-pejuanghome-title">Pejuang Rasis di Dunia</p>
+              <section className="logo-pejuanghome-photo1">
+                <img src={logo1} alt="Komunitas logo1" />
+                <p>Black Panther Party</p>
               </section>
-              <section
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  margin: "0px 10px 0px 10px",
-                }}
-              >
-                <img
-                  src={logo2}
-                  alt="Komunitas logo2"
-                  style={{
-                    height: "100px",
-                    width: "150px",
-                  }}
-                />
-                <p
-                  style={{
-                    fontWeight: "bold",
-                    marginTop: "0px",
-                  }}
-                >
-                  Black Live Matter
-                </p>
+              <section className="logo-pejuanghome-photo2">
+                <img src={logo2} alt="Komunitas logo2" />
+                <p>Black Live Matter</p>
               </section>
-              <section
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  margin: "0px 10px 0px 10px",
-                }}
-              >
-                <img
-                  src={logo3}
-                  alt="Komunitas logo3"
-                  style={{
-                    height: "90px",
-                    width: "90px",
-                  }}
-                />
-                <p
-                  style={{
-                    fontWeight: "bold",
-                    marginTop: "10px",
-                  }}
-                >
-                  Black Matter Live2
-                </p>
+              <section className="logo-pejuanghome-photo1">
+                <img src={logo3} alt="Komunitas logo3" />
+                <p>Black Matter Live2</p>
               </section>
-              <section
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  margin: "0px 10px 0px 10px",
-                }}
-              >
-                <img
-                  src={logo4}
-                  alt="Komunitas logo4"
-                  style={{
-                    height: "90px",
-                    width: "90px",
-                  }}
-                />
-                <p
-                  style={{
-                    fontWeight: "bold",
-                    marginTop: "10px",
-                  }}
-                >
-                  Malcolm X
-                </p>
+              <section className="logo-pejuanghome-photo1">
+                <img src={logo4} alt="Komunitas logo4" />
+                <p>Malcolm X</p>
               </section>
-              <section
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  margin: "0px 10px 0px 10px",
-                }}
-              >
-                <img
-                  src={logo5}
-                  alt="Komunitas logo5"
-                  style={{
-                    height: "90px",
-                    width: "90px",
-                  }}
-                />
-                <p
-                  style={{
-                    fontWeight: "bold",
-                    marginTop: "10px",
-                  }}
-                >
-                  Nelson Mandela
-                </p>
+              <section className="logo-pejuanghome-photo1">
+                <img src={logo5} alt="Komunitas logo5" />
+                <p>Nelson Mandela</p>
               </section>
             </div>
           </div>

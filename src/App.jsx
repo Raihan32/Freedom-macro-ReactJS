@@ -1,5 +1,5 @@
 import { React } from "react";
-import Navbar from "./component/Navbar/Navbar";
+// import Navbar from "./component/Navbar/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Beranda from "./pages/Jurnalpage/Home/Beranda";
 import Jurnalpage from "./pages/Jurnalpage/Jurnalpage";
@@ -16,6 +16,7 @@ import Acara from "./pages/pejuang/pejuangkomunitas/acara/Acara";
 import Member from "./pages/pejuang/pejuangkomunitas/member/Member";
 import Diskusi from "./pages/pejuang/pejuangkomunitas/diskusi/Diskusi";
 import Photos from "./pages/pejuang/pejuangkomunitas/photo/Photos";
+// import Navigation from "./pages/pejuang/components/Navigation";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/petisi" element={<Petisi />} />
         <Route path="/pejuang" element={<Pejuangpage />} />
         {/* <Route path="/pejuangkomunitas" element={<Pejuangkomunitas />} /> */}
+        {/* <Route path="/navigation" element={<Navigation />} /> */}
         <Route path="/komunitas/about" element={<About />} />
         <Route path="/komunitas/acara" element={<Acara />} />
         <Route path="/komunitas/member" element={<Member />} />

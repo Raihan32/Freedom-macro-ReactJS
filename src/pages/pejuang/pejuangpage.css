@@ -2,21 +2,20 @@
   width: 100%;
   height: 100%;
   background-color: #eee8e8;
-  font-family: "Poppins";
 }
 
 .heroPejuang {
   position: absolute;
-  width: 30rem;
-  height: 39rem;
+  width: 50rem;
+  height: 59rem;
   right: 0px;
-  top: 0px;
+  top: -10px;
 }
 
 .image1 {
   position: absolute;
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 160px;
   left: 30rem;
   top: 36px;
 }
@@ -25,29 +24,29 @@
   position: absolute;
   width: 134px;
   height: 134px;
-  right: 34rem;
+  right: 60rem;
   top: 370px;
 }
 
 .image3 {
   position: absolute;
-  width: 80px;
-  height: 80px;
-  left: 400px;
-  top: 533px;
+  width: 90px;
+  height: 90px;
+  left: 30rem;
+  top: 45rem;
 }
 
 .image4 {
   position: absolute;
-  width: 70px;
-  height: 70px;
-  right: 30rem;
-  top: 220px;
+  width: 100px;
+  height: 100px;
+  right: 50rem;
+  top: 10rem;
 }
 
 .pentagon {
   position: absolute;
-  top: 1100px;
+  top: 90rem;
   left: -460px;
   width: 657.5px;
   height: 600px;
@@ -56,27 +55,25 @@
   transform: rotate(-10deg);
 }
 
-.titlePejuang h1 {
-  font-weight: bold;
-  font-weight: 900;
-  font-size: 80px;
-  line-height: 120px;
-  margin-bottom: 2px;
-}
-
 .titlePejuang {
   position: absolute;
-  width: 804px;
-  height: 450px;
-  left: 60px;
-  top: 120px;
+  left: 120px;
+  top: 210px;
+}
+
+.titlePejuang h1 {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 120px;
+  margin-bottom: 2px;
+  letter-spacing: 0.1em;
 }
 
 .titlePejuang p {
-  width: 33rem;
-  font-style: normal;
-  font-size: 30px;
-  line-height: 40px;
+  font-family: "poppins";
+  width: 40%;
+  font-size: 45px;
+  line-height: 60px;
 }
 
 .titlePejuang span {
@@ -85,11 +82,12 @@
 
 .searchPejuang {
   background-color: #fff;
+  color: rgba(0, 0, 0, 0.3);
   border: 2px solid black;
-  width: 450px;
-  height: 55px;
+  width: 550px;
+  height: 65px;
   display: flex;
-  border-radius: 20px;
+  border-radius: 25px;
   font-size: 18px;
   left: 20px;
   top: 200px;
@@ -100,7 +98,7 @@
   border: none;
   padding: 10px 10px;
   outline: none;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .button-src {
@@ -109,11 +107,12 @@
 }
 .button-src button {
   background-color: #fff;
+  color: rgba(0, 0, 0, 0.3);
   padding-left: 30px;
-  padding-top: 5px;
+  padding-top: 6px;
   border: none;
   margin: 9px 0px 10px 0px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .contentPejuang {
@@ -122,7 +121,7 @@
   flex-direction: column;
   position: absolute;
   left: 0px;
-  top: 700px;
+  top: 60rem;
   width: 100%;
 }
 
@@ -130,6 +129,7 @@
   text-align: center;
   font-size: 35px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .lokasiPejuang {
@@ -140,17 +140,12 @@
   text-align: center;
 }
 
-.lokasiPejuang img {
-  width: 90%;
-  height: 350px;
-}
-
 .cardKomunitas {
   display: flex;
   flex-direction: column;
   position: absolute;
   left: 0px;
-  top: 1100px;
+  top: 90rem;
   width: 100%;
 }
 
@@ -159,20 +154,19 @@
   flex-direction: column;
   align-items: flex-start;
   margin-left: 200px;
-  padding: 0px;
 }
 
 .button {
   display: flex;
-  height: 50px;
+  height: 60px;
   padding: 0px;
   background: #8d2d2a;
   border: none;
   outline: none;
-  border-radius: 5px;
+  border-radius: 32px;
   overflow: hidden;
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   cursor: pointer;
 }
@@ -220,15 +214,58 @@
 .no-page ul li {
   display: inline;
   margin: 10px;
-  font-size: 20px;
+  padding: 10px;
+  font-size: 30px;
   font-weight: bold;
-  padding: 10px 10px;
 }
 
 .logo-pejuanghome {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 10px;
+  margin: 30px 0px 0px 15rem;
   order: 4;
+}
+
+.logo-pejuanghome-title {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px 60px;
+}
+
+.logo-pejuanghome-photo1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 10px 0px 10px;
+}
+.logo-pejuanghome-photo1 img {
+  height: 120px;
+  width: 120px;
+}
+
+.logo-pejuanghome-photo1 p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.logo-pejuanghome-photo2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 10px 0px 10px;
+}
+
+.logo-pejuanghome-photo2 img {
+  height: 100px;
+  width: 150px;
+}
+
+.logo-pejuanghome-photo2 p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
 }

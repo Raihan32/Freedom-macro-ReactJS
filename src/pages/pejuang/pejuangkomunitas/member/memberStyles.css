@@ -1,112 +1,13 @@
-/* header */
-.head-cover {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px 0px;
-  gap: 10px;
-  position: absolute;
-  width: 100%;
-  height: 70%;
-  left: 0px;
-  top: 148px;
-}
-
-.body-cover {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px 40px;
-  gap: 10px;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.komunitas-cover {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  height: 100%;
-}
-
-.cover1 {
-  width: 650px;
-  height: 420px;
-}
-
-.text-komunitas {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-  padding-left: 10px;
-}
-
-.text-komunitas-title {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-  padding: 0px;
-}
-
-.komunitas-title-judul {
-  font-weight: bold;
-  font-size: 30px;
-}
-
-.komunitas-title-info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-}
-
-.komunitas-title-info p {
-  font-size: 25px;
-  font-weight: 500;
-}
-
-.komunitas-icon,
-.komunitas-image {
-  padding-right: 10px;
-}
-
-.komunitas-image-founder {
-  padding-right: 10px;
-  height: 20px;
-  width: 20px;
-}
-
-.share-komunitas {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.share-komunitas p {
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.share-komunitas-icon {
-  padding: 10px 10px;
-}
+/* body member */
 
 .body-komunitas {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px 0px;
   position: absolute;
   width: 100%;
-  left: 0px;
-  top: 600px;
-  border: 1px solid black;
 }
 
-/* body member */
 .komunitas-group {
   margin-left: 40px;
   display: flex;
