@@ -10,22 +10,20 @@ import Register from "./pages/Register/Register";
 import Donasipage from "./pages/donasipage/Donasipage";
 import Petisi from "./pages/petisi/Petisi";
 
-
 function App() {
   return (
     <>
-    <Routes>
-    <Route path="/beranda" element={<Beranda />} />
-    <Route path="/jurnal" element={<Jurnalpage />} />
-    <Route path="/artikel" element={<Artikelpage />} />
-    <Route path="/profile" element={<Profile />} />
-    <Route path="/login" element={<Login />} />
-    <Route path="/register" element={<Register />} />
-    <Route path="/donasi" element={<Donasipage />} />
-    <Route path="/petisi" element={<Petisi />} />
-    </Routes>
-    
-     
+      <Routes>
+        <Route path="/beranda" element={<Beranda />} />
+        <Route path="/jurnal" element={<Jurnalpage />} />
+        <Route path="/artikel" element={<Artikelpage />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/donasi" element={<Donasipage />} />
+        <Route path="/petisi" element={<Petisi />} />
+      </Routes>
+      <h1>Test Collaborators</h1>
     </>
   );
 }
