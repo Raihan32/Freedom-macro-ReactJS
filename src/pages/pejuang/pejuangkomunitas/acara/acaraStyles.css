@@ -1,0 +1,52 @@
+/* body acara*/
+.body-komunitas {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  width: 100%;
+}
+
+.komunitas-event {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 45px;
+}
+
+.komunitas-event-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 505px;
+}
+
+.komunitas-event-card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.event-card-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 320px;
+  width: 100%;
+  background: #8d2d2a;
+  border-radius: 12px;
+  margin: 10px 10px 10px 0px;
+}
+
+.event-card-content img {
+  margin: 10px;
+  height: 300px;
+  width: 350px;
+}
+
+.event-card-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+}

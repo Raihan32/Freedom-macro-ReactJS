@@ -1,0 +1,89 @@
+/* body member */
+
+.body-komunitas {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  width: 100%;
+}
+
+.komunitas-group {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 300px;
+}
+
+.komunitas-group-ketua {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.komunitas-group-ketua p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.group-ketua-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ketua-photo-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+.ketua-photo-profile img {
+  margin-right: 10px;
+}
+.ketua-photo-profile p {
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.komunitas-group-anggota {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.komunitas-group-anggota {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.komunitas-group-anggota p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.group-aggota-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.anggota-photo-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+.anggota-photo-profile img {
+  margin-right: 10px;
+}
+.anggota-photo-profile p {
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-size: 18px;
+}
