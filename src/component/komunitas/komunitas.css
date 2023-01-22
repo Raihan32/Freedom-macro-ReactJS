@@ -1,39 +1,36 @@
-.judul{
-   
-    font-weight: 600;
-    font-size: 3.25rem;
-    line-height: 4.875rem;
-    color: rgb(0, 0, 0);
+.judul {
+  font-weight: 600;
+  font-size: 3.25rem;
+  line-height: 4.875rem;
+  color: rgb(0, 0, 0);
 }
-.komunitas{
-    margin-top: 6.25rem;
-    margin-left: 6.25rem;
-    margin-right: 6.25rem;
-    margin-bottom: 9.375rem;
-
+.komunitas {
+  margin-top: 6.25rem;
+  margin-left: 6.25rem;
+  margin-right: 6.25rem;
+  margin-bottom: 9.375rem;
 }
 
-.btn-primary{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: .625rem;
-    
-    border: 0;
-    width: 4.375rem;
-    height: 2.25rem;
-    margin: .625rem;
-    background: #A60C1F;
-    border-radius: .625rem;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 3rem;
+.btn-primary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.625rem;
+
+  border: 0;
+  width: 4.375rem;
+  height: 2.25rem;
+  margin: 0.625rem;
+  background: #a60c1f;
+  border-radius: 0.625rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 3rem;
 }
 
 .btn:hover {
-    background-color:  #2B4754;
-    ;
-  }
+  background-color: #2b4754;
+}

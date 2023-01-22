@@ -1,0 +1,134 @@
+/* body about*/
+.bgImage {
+  position: absolute;
+  right: 0px;
+  top: 40rem;
+}
+
+.body-komunitas {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  width: 100%;
+}
+
+.about-komunitas {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.about-komunitas-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.komunitas-content-tentang {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.komunitas-content-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 55px;
+  font-size: 24px;
+}
+
+.komunitas-content-event {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.content-event-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 620px;
+}
+
+.content-event-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 10px 0 0 20px;
+  background: #8d2d2a;
+  border-radius: 12px;
+  margin: 5px 0px 5px 0px;
+}
+
+.content-event-photos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.event-photo-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 920px;
+  margin-top: 20px;
+}
+
+.event-photo-album {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.event-photo-album1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.event-photo-album2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.event-photo-album1 img,
+.event-photo-album2 img {
+  padding: 5px;
+  height: 20%;
+  width: 25%;
+  border-radius: 12px;
+}
+
+.about-komunitas-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+}
+
+.about-ketua-photoprofile p {
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 0.05em;
+}
+.about-ketua-photoprofile img {
+  display: inline;
+  padding-right: 20px;
+}
+
+.about-ketua-anggota p {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+}
+.about-ketua-anggota img {
+  padding: 10px 10px 0px 10px;
+}
